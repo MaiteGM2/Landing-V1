@@ -1,0 +1,29 @@
+html{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section, header{
+    background-image: url(Pictures/Background\ Image.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:nth-child(odd){
+    background-image: none;
+    background-color: white;
+    color: black;
+}
