@@ -107,7 +107,7 @@ nav{
     background-color: white;
 }
 
-button{
+.button-header{
     background-color: #5956E9;
     border: 0;
     border-radius: 3px;
@@ -137,3 +137,33 @@ button{
     #check:checked ~ menu{right:0;}
 }
 
+.outline{
+    border: 10px solid;
+    border-color: #7572FF;
+    padding: 10px;
+    background-color: #5956E9;
+}
+
+.post{
+    color: black;
+    background-color: white;
+    padding: 20px;
+
+}
+
+.Home{
+    display: flex;
+    flex-direction: column;
+}
+
+.download{
+    font-weight: 600;
+    width: 72%;
+}
+
+.button-home{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+}
