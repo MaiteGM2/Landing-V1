@@ -283,9 +283,86 @@ nav{
 .img-features{
     position: relative;
     left: 10px;
+}
+
+.Team{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-team{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px;
+    gap: 30px;
+}
+
+.member{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 10px;
+    color: #6C6C72;
+}
+
+.social-networks{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color: black;
     
 }
 
+.profile{
+    border: 4px;
+    border-style: solid;
+    border-radius: 50%;
+    padding: 4px;
+    color: #5956E9;
+}
+
+
+.curt{
+    position: relative;
+    border: solid;
+    border-color: aqua;
+}
+
+
+
+.curt::before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    left: 40px;
+    bottom: 50%;
+}
+
+.curt::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    right: 40px;
+    bottom: 50%;
+}
+
+
+
+
+
+.member  h1{
+    color: black;
+}
 
 
 
