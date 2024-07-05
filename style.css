@@ -3,6 +3,7 @@ html{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  line-height: 25px;
 }
 
 body{
@@ -193,10 +194,15 @@ nav{
     left: 28px;
     margin-bottom: 50px;
 }
+
 .About{
+    padding: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
     margin-top: 50px;
+    text-align: center;
 }
 
 .title-about{
@@ -207,7 +213,6 @@ nav{
 .text2{
     color: #6C6C72;
     size: 16px;
-    width: 80%;
     display: flex;
     text-align: center;
     word-spacing: 2px;
@@ -216,20 +221,18 @@ nav{
 }
 
 .about-post{
-    width: 80%;
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
     display: flex;
     flex-flow: column;
     padding: 20px;
-
 }
 
 .subtitles-about{
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    
     align-items: center;
 }
 
@@ -270,8 +273,8 @@ nav{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     gap: 30px;
 }
 
@@ -280,12 +283,32 @@ nav{
     left: 10px;
 }
 
+.Features h3{
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.Features h2{
+    font-size: 25px;
+    font-weight: 600px;
+}
+
 .Team{
-    margin-top: 30px;
-    margin-bottom: -100px;
+    margin-top: 60px;
+    margin-bottom: -170px;
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+.title-team h1{
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.title-team p{
+    color: #6C6C72;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .container-team{
@@ -302,6 +325,19 @@ nav{
     width: 100%;
     padding: 10px;
     color: #6C6C72;
+    padding: 30px;
+}
+
+.member h1{
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.member h3{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 600px;
 }
 
 .social-networks{
@@ -318,9 +354,16 @@ nav{
 footer{
     background-color: #232233;
     color: white;
-    padding: 150px 20px 0 20px;
-    line-height: 25px;
+    padding: 200px 20px 0 20px;
     gap: 50px;
+}
+
+footer h2{
+    font-size: 25px;
+}
+
+.logo-text{
+    font-size: 31.25px;
 }
 
 .social-networks2{
@@ -347,6 +390,7 @@ a:hover{
 
 .link{
     list-style: none;
+    line-height: 40px;
 }
 
 .link a{
@@ -360,6 +404,7 @@ a:hover{
     align-items: center;
     position: relative;
     justify-content: center;
+    margin-bottom: 40px;
     margin-bottom: 40px;
 }
 
@@ -387,21 +432,26 @@ a:hover{
     align-items: center;
     font-weight: 300;
     font-size: 12px;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10px;
 }
 
 .Contact{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-    width: 238px;
     color: black;
     position: relative;
     background-color: white;
     text-align: center;
-    margin: 0 25px;
-    bottom: -134px;
+    bottom: -178px;
     padding: 30px;
     font-size: 18px;
+    align-items: center;
 }
 
 .message, .phone{
@@ -413,9 +463,6 @@ a:hover{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    position: relative;
-    left: 40%;
-   
 }
 
 .Contact hr{
@@ -432,6 +479,8 @@ a:hover{
    margin-bottom: 0 ;
    font-size: 18px;
 }
+
+
 
 
 
