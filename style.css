@@ -312,45 +312,6 @@ nav{
     color: black;
 }
 
-.profile{
-    border: 4px;
-    border-style: solid;
-    border-radius: 50%;
-    padding: 4px;
-    color: #5956E9;
-}
-
-
-.curt{
-    position: relative;
-    border: solid;
-    border-color: aqua;
-}
-
-
-
-.curt::before{
-    position: absolute;
-    content: "";
-    display: block;
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    left: 40px;
-    bottom: 50%;
-}
-
-.curt::after{
-    position: absolute;
-    content: "";
-    display: block;
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    right: 40px;
-    bottom: 50%;
-}
-
 .member  h1{
     color: black;
 }
