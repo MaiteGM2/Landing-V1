@@ -282,11 +282,10 @@ nav{
 
 .Team{
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: -100px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 100px;
 }
 
 .container-team{
@@ -319,7 +318,7 @@ nav{
 footer{
     background-color: #232233;
     color: white;
-    padding: 100px 20px 0 20px;
+    padding: 150px 20px 0 20px;
     line-height: 25px;
     gap: 50px;
 }
@@ -394,18 +393,15 @@ a:hover{
 .Contact{
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-    width: 75%;
-    padding: 10px;
+    width: 238px;
     color: black;
-    position: absolute;
+    position: relative;
     background-color: white;
     text-align: center;
-    align-content: center;
-    justify-content: center;
-    margin: 0 18px;
-    top: 87%;
+    margin: 0 25px;
+    bottom: -134px;
     padding: 30px;
-    align-items: center;
+    font-size: 18px;
 }
 
 .message, .phone{
@@ -417,14 +413,25 @@ a:hover{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    position: relative;
+    left: 40%;
    
 }
 
 .Contact hr{
     width: 40%;
     border: 2px solid; 
+    border-radius: 5px;
 }
 
+.phone{
+    margin-top: 16px;
+}
+
+.number{
+   margin-bottom: 0 ;
+   font-size: 18px;
+}
 
 
 
